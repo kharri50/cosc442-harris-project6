@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.phptravels.net/admin]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=email]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=email]]></target>
+	<value><![CDATA[admin@phptravels.com]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=password]]></target>
+	<value><![CDATA[demoadmin]]></value>
+</selenese>
+<selenese>
+	<command>sendKeys</command>
+	<target><![CDATA[name=password]]></target>
+	<value><![CDATA[${KEY_ENTER}]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(//a[contains(text(),'Modules')])[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Add New]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=tourname]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=tourname]]></target>
+	<value><![CDATA[Test addition of tour ]]></value>
+</selenese>
+<selenese>
+	<command>selectFrame</command>
+	<target><![CDATA[index=1]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[//body]]></target>
+	<value><![CDATA[<p>Adding a new tour in selenium/katalon recorder</p>]]></value>
+</selenese>
+<selenese>
+	<command>selectFrame</command>
+	<target><![CDATA[relative=parent]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=maxadult]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=maxadult]]></target>
+	<value><![CDATA[2]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=adultprice]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=adultprice]]></target>
+	<value><![CDATA[1000]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=tourstars]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>select</command>
+	<target><![CDATA[name=tourstars]]></target>
+	<value><![CDATA[label=4]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=tourdays]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=tourdays]]></target>
+	<value><![CDATA[4]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=tournights]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=tournights]]></target>
+	<value><![CDATA[3]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=isfeatured]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>select</command>
+	<target><![CDATA[id=isfeatured]]></target>
+	<value><![CDATA[label=Yes]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=ffrom]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//tr[4]/td[5]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[5]/div/table/tbody/tr[5]/td[4]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[San Fran]]></value>
+</selenese>
+<selenese>
+	<command>sendKeys</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[${KEY_ENTER}]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[Washington]]></value>
+</selenese>
+<selenese>
+	<command>sendKeys</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[${KEY_ENTER}]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[Los A]]></value>
+</selenese>
+<selenese>
+	<command>sendKeys</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[${KEY_DOWN}]]></value>
+</selenese>
+<selenese>
+	<command>sendKeys</command>
+	<target><![CDATA[xpath=(//input[@type='text'])[65]]]></target>
+	<value><![CDATA[${KEY_ENTER}]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=depositvalue]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=taxvalue]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=taxvalue]]></target>
+	<value><![CDATA[20]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[@id='map-canvas']/div/div/div/div[3]/div]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[//div[@id='map-canvas']/div/div/div/div[3]/div]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=mapaddress]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=add]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
